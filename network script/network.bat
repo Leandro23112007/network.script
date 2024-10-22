@@ -10,7 +10,6 @@ echo NETWORK SCRIPT                 #
 echo # (C) 2024 . Leandro           #
 echo ################################
 
-echo 0 - Show Goku
 echo 1 - IP configurations
 echo 2 - Renew IP configurations
 echo 3 - DNS query
