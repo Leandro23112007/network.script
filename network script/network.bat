@@ -83,4 +83,6 @@ net user > users.txt
 pause
 goto MENU
 :EXIT_SCRIPT
+cls
+echo Thanks
 exit /b 0
