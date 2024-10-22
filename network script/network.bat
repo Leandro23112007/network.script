@@ -10,15 +10,16 @@ echo NETWORK SCRIPT                 #
 echo # (C) 2024 . Leandro           #
 echo ################################
 
-echo 1 - IP configurations
-echo 2 - Renew IP configurations
-echo 3 - DNS query
-echo 4 - Show Mac Adress
-echo 5 - Show power efficiency
-echo 6 - File/App Association
-echo 7 - Check Disk
-echo 8 - Check url connection
-echo 9 - Exit
+echo  1 - IP configurations
+echo  2 - Renew IP configurations
+echo  3 - DNS query
+echo  4 - Show Mac Adress
+echo  5 - Show power efficiency
+echo  6 - File/App Association in output.txt
+echo  7 - Check Disk
+echo  8 - Check url connection
+echo  9 - SHow computer users in user.txt
+echo 10 - Exit
 
 set /p opt="Select an option then press ENTER: "
 
@@ -85,4 +86,4 @@ goto MENU
 :EXIT_SCRIPT
 cls
 echo Thanks
-exit /b 0
+cmd /k
